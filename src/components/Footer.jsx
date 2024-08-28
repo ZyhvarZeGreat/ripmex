@@ -23,9 +23,9 @@ const Footer = () => {
                             <div className="h-px w-full bg-white/10"></div>
                             <div className="flex items-center gap-8 text-[#3D3F4F]"></div>
                         </div>
-                        <div className="fot col-span-1 grid grid-cols-1 gap-8 text-center lg:col-span-2 lg:grid-cols-3 lg:text-left">
+                        <div className="fot col-span-1 grid grid-cols-1 gap-2 text-center lg:col-span-2 lg:grid-cols-3 lg:text-left">
                             <div>
-                                <h6 className="mb-4 text-xl lg:text-2xl">RPX</h6>
+                                <h6 className="mb-4 text-xl lg:text-2xl font-spaceGrotesk">RPX</h6>
                                 <ul className="flex flex-col gap-4">
                                     <li>
                                         <a
@@ -70,7 +70,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div>
-                                <h6 className="mb-4 text-xl lg:text-2xl">Social Links</h6>
+                                <h6 className="mb-4 text-xl font-spaceGrotesk lg:text-2xl">Social Links</h6>
                                 <ul className="flex flex-col gap-4">
                                     <li>
                                         <a
@@ -115,7 +115,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div>
-                                <h6 className="mb-4 text-xl lg:text-2xl">Useful Links</h6>
+                                <h6 className="mb-4 font-spaceGrotesk text-xl lg:text-2xl">Useful Links</h6>
                                 <ul className="flex flex-col gap-4">
                                     <li>
                                         <a

@@ -10,9 +10,9 @@ function App() {
 
 
   return (
-    <div className='w-full text-white px-4 bg-no-repeat bg-cover   bg-left  bg-[url("assets/bg.jpg")]  gap-24 flex flex-col items-center justify-center'>
+    <div className='w-full text-white px-4 bg-no-repeat bg-cover   bg-center  bg-[url("assets/bg.jpg")]  gap-24 flex flex-col items-center justify-center'>
 
-      <div className='flex w-full flex-col items-center justify-center max-w-screen-xl' >
+      <div className='flex  w-full flex-col items-center justify-center max-w-screen-xl' >
         <Navbar />
         <Wallet />
         <Usage />
