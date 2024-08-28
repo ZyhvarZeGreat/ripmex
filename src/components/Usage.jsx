@@ -13,7 +13,7 @@ const Usage = () => {
                 </a>
 
                 <div className="gradient-border border-l-[6px] border-l-[#01c5fa] flex text-center w-full flex-col py-12 lg:flex-row items-center gap-4 rounded-2xl bg-[#1A2025]/70 p-6 backdrop-blur-xl transition-all duration-200 hover:scale-105 ">
-                    <div className="gradient-border flex text-center h-20 w-20 border-2 border-white/40 rounded-full   items-center justify-center text-3xl font-bold before:rounded-full lg:h-20 lg:w-20">
+                    <div className="gradient-border flex text-center h-24 w-24 lg:p-8 border border-white/40 rounded-full w-auto  items-center justify-center text-3xl font-bold before:rounded-full lg:h-20 lg:w-20">
                         1.
                     </div>
                     <div className="flex-col items-start text-center lg:text-start gap-2">
@@ -23,7 +23,7 @@ const Usage = () => {
                     </div>
                 </div>
                 <div className="gradient-border border-l-[6px] border-l-[#01c5fa] flex text-center w-full flex-col py-12 lg:flex-row items-center gap-4 rounded-2xl bg-[#1A2025]/70 p-6 backdrop-blur-xl transition-all duration-200 hover:scale-105 ">
-                    <div className="gradient-border flex text-center h-20 w-20 border-2 border-white/40 rounded-full   items-center justify-center text-3xl font-bold before:rounded-full lg:h-20 lg:w-20">
+                    <div className="gradient-border flex text-center h-24 w-24 lg:p-8 border border-white/40 rounded-full w-auto  items-center justify-center text-3xl font-bold before:rounded-full lg:h-20 lg:w-20">
                         2.
                     </div>
                     <div className="flex-col items-start text-center lg:text-start gap-2">
@@ -32,7 +32,7 @@ const Usage = () => {
                     </div>
                 </div>
                 <div className="gradient-border border-l-[6px] border-l-[#01c5fa] flex text-center w-full flex-col py-12 lg:flex-row items-center gap-4 rounded-2xl bg-[#1A2025]/70 p-6 backdrop-blur-xl transition-all duration-200 hover:scale-105 ">
-                    <div className="gradient-border flex text-center h-20 w-20 border-2 border-white/40 rounded-full   items-center justify-center text-3xl font-bold before:rounded-full lg:h-20 lg:w-20">
+                    <div className="gradient-border flex text-center h-24 w-24 lg:p-8 border border-white/40 rounded-full w-auto  items-center justify-center text-3xl font-bold before:rounded-full lg:h-20 lg:w-20">
                         3.
                     </div>
                     <div className="flex-col items-start text-center lg:text-start gap-2">
