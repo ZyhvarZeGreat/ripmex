@@ -7,7 +7,7 @@ const Wallet = () => {
             <div className="container flex flex-col items-center justify-center  gap-16 px-4 lg:flex-row lg:gap-4 lg:px-0">
 
                 {/* First Column */}
-                <div className="flex w-full flex-col gap-6 lg:w-1/2" style={{ opacity: 1, transform: 'none' }}>
+                <div className="flex w-full flex-col gap-4 lg:w-1/2" style={{ opacity: 1, transform: 'none' }}>
                     <div className="relative border-l-[#01c5fa] border-l-[6px]  mx-auto w-full max-w-lg rounded-3xl bg-[#1a2025]/70 backdrop-blur-xl">
                         <div className="absolute -top-8 ">
                             <p className="mx-10 rounded-2xl border border-[#2252fd] bg-button-gradient-light bg-gradient-to-t from-black/20 to-transparent py-2 px-2 text-center text-base backdrop-blur-3xl">
@@ -24,7 +24,7 @@ const Wallet = () => {
                                 </div>
                             </div>
                             <div className="-mx-5 h-0.5 bg-[#30353A]"></div>
-                            <span className="text12 text-center font-medium uppercase text-[#D1D3FF]">
+                            <span className="text12 text-[#01c5fa] text-center font-medium uppercase ">
                                 Send BNB direct to presale address and you will receive RPX tokens immediatly.
                             </span>
                             <button className="mx-auto bg-button-gradient-dark text-white border border-[#2252fd] flex justify-center items-center gap-3 rounded-full bg-primary py-4 px-6 font-normal text-black transition-opacity duration-200 hover:opacity-75 lg:mx-0 heightt">

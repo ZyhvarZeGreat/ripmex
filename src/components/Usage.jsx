@@ -1,12 +1,10 @@
-import buttonImg from "../assets/asset 12.svg"
-import buttonImg2 from "../assets/asset 4.svg"
 const Usage = () => {
     return (
-        <div className='py-12 container flex items-center justify-center w-full lg:py-24 .container flex flex-col items-center gap-6 px-4 lg:flex-row lg:gap-16 lg:px-0'>
+        <div className='py-12 container flex items-center justify-center w-full lg:py-24  flex-col  gap-6 px-4 lg:flex-row lg:gap-16 lg:px-0'>
             <div className="flex w-full flex-col gap-6  lg:w-1/2">
-                <button className="mx-auto font-light  h-[45px] p-4 bg-button-gradient-dark border border-[#2252fd] w-auto  text-white justify-center font-openSans flex items-center gap-3 rounded-full bg-primary   transition-opacity duration-200 hover:opacity-75 lg:mx-0 ">
+                <button className="mx-auto font-semibold text-[#01c5fa]   h-[45px] p-4 bg-button-gradient-dark border border-[#2252fd] w-auto  justify-center font-openSans flex items-center gap-3 rounded-full bg-primary   transition-opacity duration-200 hover:opacity-75 lg:mx-0 ">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4"><path fillRule="evenodd" clipRule="evenodd" d="M31 12h-11v-11c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v11h-11c-0.552 0-1 0.448-1 1v6c0 0.552 0.448 1 1 1h11v11c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-11h11c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1z" strokeWidth="2" strokeMiterlimit="10" fill="currentColor"></path></svg>
-                    Add Rpx to your Wallet
+                    Add RPX to your Wallet
                 </button>
                 <button className="mx-auto h-[45px] p-4 bg-button-gradient-light w-auto border border-[#2252fd]  text-white justify-center font-openSans flex items-center gap-2 rounded-full bg-primary  font-semibold  transition-opacity duration-200 hover:opacity-75 lg:mx-0 ">
                     <svg width="" height="" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4"><path fillRule="evenodd" clipRule="evenodd" d="M4.2 4.2v-2.8c0-0.77 0.63-1.4 1.4-1.4h7c0.773 0 1.4 0.627 1.4 1.4v0 7c0 0.773-0.627 1.4-1.4 1.4v0h-2.8v2.8c0 0.773-0.627 1.4-1.4 1.4v0h-7c-0.773 0-1.4-0.627-1.4-1.4v0-7c0-0.77 0.63-1.4 1.4-1.4h2.8zM5.6 4.2h2.8c0.773 0 1.4 0.627 1.4 1.4v0 2.8h2.8v-7h-7v2.8zM1.4 5.6v7h7v-7h-7z" strokeWidth="2" strokeMiterlimit="10" fill="currentColor"></path></svg>
